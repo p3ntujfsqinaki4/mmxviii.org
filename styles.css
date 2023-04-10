@@ -1,0 +1,62 @@
+.home {
+	font-family: Monospace;	
+	font-size: 105%;
+	color: white;
+	background-color: black;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 20%;
+	text-align: left
+}
+
+body {
+	color: white;
+	background-color: black;
+}
+
+hr {
+	max-width: 20%;
+	border: 1px solid black;
+}
+
+.code{
+	color: blue;
+	padding: 2%;
+}
+
+.banner {
+	text-align: center;
+}
+
+.banner h1 {
+	color: white;
+}
+
+.banner a {
+	color: white;
+	text-decoration: none;
+}
+
+.footer {
+	text-align: center;
+}
+
+.code {
+	color: blue;
+	text-align: left;
+	padding: 2%;
+}
+
+@media only screen and (max-width: 800px) {
+	
+	.home {
+	font-family: Monospace;
+	font-size: 105%;
+	color: black;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 80%;
+	text-align: left;
+}
+}
